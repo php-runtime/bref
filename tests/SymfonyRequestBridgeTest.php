@@ -61,8 +61,7 @@ Content-Disposition: form-data; name="rfc5987"; text1*=iso-8859-1'en'%A3%20rates
 rfc
 ------------------------------83ff53821b7c--
 
-HTTP
-            ,
+HTTP,
         ]), $this->getContext());
         $this->assertSame('', $request->getContent());
     }
@@ -90,8 +89,7 @@ Content-Disposition: form-data; name="foo"
 bar
 ------------------------------83ff53821b7c--
 
-HTTP
-            ,
+HTTP,
         ]), $this->getContext());
         $files = $request->files->all();
         $this->assertArrayHasKey('img', $files['form']);
@@ -124,8 +122,7 @@ Content-Disposition: form-data; name="foo"
 bar
 ------------------------------83ff53821b7c--
 
-HTTP
-            ,
+HTTP,
         ]), $this->getContext());
         $files = $request->files->all();
         $this->assertArrayHasKey('img', $files['form']);
