@@ -1,6 +1,12 @@
 # Change Log
 
-## [NOT RELEASED]
+## 1.0.0
+
+### Added
+
+- Add support for Symfony 8
+
+## 0.4.0
 
 ### Added
 
